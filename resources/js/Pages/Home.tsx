@@ -1,6 +1,7 @@
 // resources/js/Pages/Home.tsx
 import { Head } from "@inertiajs/react";
 import React from "react";
+import InquiryForm from "../Components/InquiryForm";
 
 // Import images
 import Buddy from "../assets/buddy.jpg";
@@ -49,6 +50,9 @@ const Home: React.FC = () => {
             Our pet show is a celebration of all pets, big and small. Join us for an event full of fun, competitions, and adorable animals.
           </p>
         </div>
+
+        {/* Inquiry Form Section */}
+        <InquiryForm />
       </div>
     </>
   );
